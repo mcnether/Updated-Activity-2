@@ -4,6 +4,10 @@ view_home.addEventListener("click", function(){
    console.log("User clicked on home button"); 
 });
 
+view_aboutme.addEventListener("click", function(){
+    console.log ("User clicked on aboutme button");
+});
+
 view_portfolio.addEventListener("click", function(){
     console.log ("User clicked on portfolio button");
 });
