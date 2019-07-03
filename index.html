@@ -11,16 +11,18 @@
      <link rel="stylesheet" href="styles.css"> 
       
 <!-- Navigation Bar Not Sure I coded it correct-->
-      
+     <title>Instructional Designer</title>
+  </head>
+    
+  <body>
         <div class="topnav">    
             <nav class="navbar-dark bg-dark p-0">
                 <ul class="nav justify-content-end">
-<!-- Inactive Link for name-->
+                    <!-- Inactive Link for name-->
                     <li class="nav-item1">
                         <a id="navbarname"class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Michelle C N. Hortin</a>
                     </li>  
-<!-- Active Links-->
-        
+                    <!-- Active Links-->
                     <li class="nav-item2 ml-auto">
                         <a id="view_home" class="nav-link active" href="#">Home</a>
                     </li>
@@ -34,12 +36,33 @@
             </nav> 
         </div>
       
+      <!-- An example of how to setup your grid -->
+        <div id="home" class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <!-- add home html -->
+                    <h1>Instructional Designer</h1>
+                </div>
+            </div>
+        </div>
       
-        <title>Instructional Designer</title>
-    </head>
-    
-    <body>
-        <h1>Instructional Designer</h1>
+      <div id="portfolio" class="container-fluid d-none">
+            <div class="row">
+                <div class="col">
+                    <!-- Add portfolio html -->
+                </div>
+            </div>
+        </div>
+      
+      <div id="contact" class="container-fluid d-none">
+            <div class="row">
+                <div class="col">
+                    <!-- Add content html -->
+                </div>
+            </div>
+        </div>
+     
+        
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -51,5 +74,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="js/variable.js"></script>
+        <script src="js/listener.js"></script>
     </body>
 </html>
