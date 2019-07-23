@@ -25,3 +25,12 @@ a:active {
     font-weight: 200;
     color: white;
 }
+
+/*afton img*/
+
+img {
+    padding:0px, 0px, 0px, 0px;
+  background-image: url(img%20home%20page/Afton.jpeg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}

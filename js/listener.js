@@ -1,5 +1,7 @@
 console.log("listener is loaded...");
 
+
+//nav bar
 view_home.addEventListener("click", function(){
    console.log("User clicked on home button"); 
 });
@@ -15,3 +17,16 @@ view_portfolio.addEventListener("click", function(){
 view_contact.addEventListener("click", function(){
     console.log ("User clicked on contact button");
 });
+
+//list-group
+listGroup_home.addEventListener("click", function(){
+    console.log ("User clicked on contact button");
+    
+listGroup_aboutMe.addEventListener("click", function(){
+    console.log ("User clicked on contact button");
+    
+listGroup_portfolio.addEventListener("click", function(){
+    console.log ("User clicked on contact button");
+    
+listGroup_contact.addEventListener("click", function(){
+    console.log ("User clicked on contact button");
