@@ -17,22 +17,18 @@
         <div class="topnav">    
             <nav class="navbar-dark bg-dark p-0">
                 <ul class="nav justify-content-end">
-                    <!-- Inactive Link for name-->
-                    <li class="nav-item1">
-                        <a id="navbarlogo"class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Logo</a>
-                    </li>  
                     <!-- Active Links-->
                     <li class="nav-item2 ml-auto">
-                        <a id="view_home" class="nav-link active" href="#">Home</a>
+                        <a id="view_home" class="nav-link active" href="javascript:void(0);">Home</a>
                     </li>
                      <li class="nav-item3">
-                        <a id="view_aboutme" class="nav-link" href="#">About Me</a>
+                        <a id="view_aboutme" class="nav-link" href="javascript:void(0);">About Me</a>
                     </li>
                     <li class="nav-item4">
-                        <a id="view_portfolio" class="nav-link" href="#">Portfolio</a>
+                        <a id="view_portfolio" class="nav-link" href="javascript:void(0);">Portfolio</a>
                     </li>
                     <li class="nav-item5 justify-content-end">
-                        <a id="view_contact" class="nav-link" href="#">Contact</a>
+                        <a id="view_contact" class="nav-link" href="javascript:void(0);">Contact</a>
                     </li>
                 </ul>
             </nav> 
@@ -52,7 +48,7 @@
         <div class="container-fluid">
           <div class="row-fluid">
               <div class= "col">
-                <img src="img%20home%20page/Afton.jpeg" id="afton"/>
+                <img src="img/afton.jpeg" id="afton" class="img-fluid"/>
             </div>
           </div>
         </div>
@@ -80,26 +76,28 @@
                 <div class="col">
                     <!-- Add content html -->
                     <h1>Contact</h1>
+                    
+                    <form>
+                        <div class="input-group mb-3">
+                          <input id="input_email" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                          <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">@example.com</span>
+                          </div>
+                        </div>
+                        <div id="form_alert_success" style="display:none;" class="alert alert-success alert-dismissible fade show" role="alert">
+                          <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                    </form>
+                    <button id="btn_form" class="btn btn-primary">Submit</button>
+                    
                 </div>
             </div>
         </div>
       
-    <!-- Not Sure if I did my "id's" correct on this section -->  
-        <div id="list-group" class="container-fluid">
-            <div class="row">
-                <div class="list-group">
-                    <a id="returnTo" class="list-group-item-dark list-group-item-action active bg-dark p-0" href="#"> Return To:
-                    </a>
-                    <a id="listGroup_home" class="list-group-item list-group-item-action" href="#">Home</a>
-                    <a id="listGroup_aboutMe" class="list-group-item list-group-item-action" href="#">About Me</a>
-                    <a id="listGroup_portfolio" class="list-group-item list-group-item-action" href="#">Portfolio</a>
-                    <a id="listGroup_contact" class="list-group-item list-group-item-action" href="#">Contact</a> 
-                </div>
-            </div>
-        </div>  
-      
-   
-      
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -112,6 +110,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="js/variable.js"></script>
         <script src="js/listener.js"></script>
+        <script src="js/router.js"></script>
         <script src="js/controller.js"></script>
         
     </body>

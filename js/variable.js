@@ -1,4 +1,4 @@
-console.log("Instructional Designer")
+console.log("Instructional Designer");
 
 // navbar
 var view_home = document.getElementById("view_home");
@@ -13,16 +13,10 @@ var view_portfolio = document.getElementById("view_portfolio");
 var view_contact = document.getElementById("view_contact");
     console.log(view_contact);
 
-// list-group
+var section_aboutme = document.getElementById("aboutMe");
+var section_portfolio = document.getElementById("portfolio");
+var section_contact = document.getElementById("contact");
 
-var listGroup_home = document.getElementById("home");
-    console.log(home);
-
-var listGroup_aboutMe = document.getElementById("aboutMe");
-    console.log(aboutMe);
-
-var listGroup_portfolio = document.getElementById("portfolio");
-    console.log(portfolio)
-
-var listGroup_contact = document.getElementById("contact");
-    console.log("contact")
+var btn_form = document.getElementById("btn_form");
+var input_email = document.getElementById("input_email");
+var form_alert_success = document.getElementById("form_alert_success");

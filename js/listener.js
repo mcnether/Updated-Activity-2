@@ -8,25 +8,19 @@ view_home.addEventListener("click", function(){
 
 view_aboutme.addEventListener("click", function(){
     console.log ("User clicked on aboutme button");
+    router("aboutMe");
 });
 
 view_portfolio.addEventListener("click", function(){
     console.log ("User clicked on portfolio button");
+    router("portfolio");
 });
 
 view_contact.addEventListener("click", function(){
     console.log ("User clicked on contact button");
+    router("contact");
 });
 
-//list-group
-listGroup_home.addEventListener("click", function(){
-    console.log ("User clicked on contact button");
-    
-listGroup_aboutMe.addEventListener("click", function(){
-    console.log ("User clicked on contact button");
-    
-listGroup_portfolio.addEventListener("click", function(){
-    console.log ("User clicked on contact button");
-    
-listGroup_contact.addEventListener("click", function(){
-    console.log ("User clicked on contact button");
+btn_form.addEventListener('click',function(){
+    form_submit(); 
+});
